@@ -5,9 +5,13 @@
   "type": "module",
   "main": "index.js",
   "bin": {
-    "adb-mcp-server": "./index.js"
+    "adb-mcp-server": "index.js"
   },
-  "files": ["index.js", "README.md", "LICENSE"],
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18"
   },
