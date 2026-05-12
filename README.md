@@ -2,9 +2,9 @@
 
 > ADB over MCP. Drive an Android device over the network from any MCP-compatible agent.
 
-[![npm](https://img.shields.io/npm/v/adb-mcp-server)](https://www.npmjs.com/package/adb-mcp-server)
-[![license](https://img.shields.io/npm/l/adb-mcp-server)](LICENSE)
-[![node](https://img.shields.io/node/v/adb-mcp-server)](#requirements)
+[![npm](https://img.shields.io/npm/v/@sfaizi24/adb-mcp-server)](https://www.npmjs.com/package/@sfaizi24/adb-mcp-server)
+[![license](https://img.shields.io/npm/l/@sfaizi24/adb-mcp-server)](LICENSE)
+[![node](https://img.shields.io/node/v/@sfaizi24/adb-mcp-server)](#requirements)
 
 ## What problem this solves
 
@@ -27,7 +27,7 @@ This server is built for that network-first case. The device is reachable at `<h
   "mcpServers": {
     "adb": {
       "command": "npx",
-      "args": ["-y", "adb-mcp-server"],
+      "args": ["-y", "@sfaizi24/adb-mcp-server"],
       "env": { "ADB_HOST": "192.168.1.42" }
     }
   }
@@ -40,7 +40,7 @@ This server is built for that network-first case. The device is reachable at `<h
 # plugins.entries.acpx.config.mcpServers
 adb:
   command: npx
-  args: ["-y", "adb-mcp-server"]
+  args: ["-y", "@sfaizi24/adb-mcp-server"]
   env:
     ADB_HOST: "100.64.0.5"
 ```

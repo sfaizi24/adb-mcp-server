@@ -1,5 +1,5 @@
 {
-  "name": "adb-mcp-server",
+  "name": "@sfaizi24/adb-mcp-server",
   "version": "1.0.0",
   "description": "Remote-network ADB MCP server. Drive Android devices over the network from any MCP-compatible agent (OpenClaw, Hermes, Claude Desktop, Claude Code, Cursor, Codex). Built for headless setups — droplets, CI, home labs, Tailscale meshes.",
   "type": "module",
